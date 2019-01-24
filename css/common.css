@@ -1,0 +1,84 @@
+.public-header {
+    height: 110px;
+}
+
+.public-header .header-logo {
+    float: left;
+    margin-top: 40px;
+}
+
+.public-header .header-logo a {
+    width: 182px;
+    height: 54px;
+    background: url("../image/index-header-logo.png");
+}
+
+.public-header .header-nav {
+    float: right;
+    font-size: 16px;
+}
+
+.public-header .header-nav .item {
+    float: left;
+    margin-top: 44px;
+    margin-left: 50px;
+}
+
+.public-header .header-nav a {
+    color: #3b3b3b;
+}
+
+.public-header .header-nav a:hover {
+    font-weight: bold;
+}
+
+.public-container {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+}
+
+.public-footer {
+    height: 218px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background: #3b3b3b;
+}
+
+.public-footer .public-container .footer-col {
+    width: 230px;
+    float: left;
+    margin-right: 60px;
+    color: #fff;
+    line-height: 1.8;
+    font-size: 14px;
+}
+
+.public-footer .footer-col:last-child {
+    margin-left: -14px;
+    margin-right: 0;
+}
+
+.public-footer .footer-logo {
+    width: 182px;
+    height: 54px;
+    margin-top: -10px;
+    margin-bottom: 12px;
+    background: url("../image/index-footer-logo.png");
+}
+
+.footer-info a {
+    display: inline-block;
+}
+
+.footer-info a:hover{
+    font-size: 20px;
+}
+
+.footer-col .tel-num:hover {
+    font-weight: bold;
+}
+
+.footer-col .info:hover {
+    font-weight: bold;
+}

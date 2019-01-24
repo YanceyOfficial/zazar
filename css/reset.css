@@ -1,0 +1,43 @@
+@font-face {
+    font-family: WCManoNegraBta;
+    src: url('../font/WCManoNergraBta/WCManoNegraBta.otf');
+    src: url('../font/WCManoNergraBta/WCManoNegraBoldBta.otf');
+}
+
+@font-face {
+    font-family: Aleo-Regular;
+}
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, input, form, a, p, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    letter-spacing: 2px;
+}
+
+ul, ol, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+img {
+    border: none;
+    display: block;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0;
+}

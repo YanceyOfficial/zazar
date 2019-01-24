@@ -1,0 +1,254 @@
+.index-banner{
+    position: relative;
+}
+
+.index-banner-bg{
+    height: 570px;
+    overflow: hidden;
+}
+
+/*防止大屏出问题 后期换大屏测试*/
+.index-banner-bg img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*同级div，下面的元素被遮盖时，用绝对位置*/
+.index-banner .index-banner-text{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.index-banner .index-banner-title{
+    font-family: WCManoNegraBta, serif;
+    font-size: 100px;
+    color: #fff;
+}
+
+.index-banner .index-banner-subtitle{
+    margin: 17px 26px 0 26px;
+    color: #fff;
+}
+
+/*display: inline-block;和vertical-align: middle;搭配使用*/
+.index-banner .line{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    border: 1px solid #fff;
+}
+
+.index-list .top-border{
+    width: 1500px;
+    height: 4px;
+    margin: 0 auto;
+    background: url("../image/division.png");
+}
+
+.index-list .index-list-header{
+    position: relative;
+    margin: 0 auto;
+    width: 156px;
+    height: 72px;
+    background-color: #f34949;
+    text-align: center;
+}
+
+.index-list .index-list-header::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-left: 78px solid transparent;
+    border-right: 78px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.index-list .index-list-header span{
+    line-height: 65px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.index-list .index-list-content{
+    margin-top: 82px;
+    overflow: hidden;
+}
+
+/*理解设为1160的意义*/
+.index-list .index-list-content ul{
+    width: 1160px;
+}
+
+.index-list .content-item{
+    float: left;
+    width: 520px;
+    margin-right: 60px;
+    margin-bottom: 56px;
+    color: #555;
+}
+
+.title{
+    float: left;
+    width: 230px;
+}
+
+.title h4{
+    font-size: 16px;
+    color: #555;
+}
+
+.title .summary{
+    width:250px;
+    margin-top: 4px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #b7b7b7;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.content-item .title a p:hover{
+    font-weight: bold;
+}
+
+.content-item .title a h4:hover{
+    font-weight: 100;
+}
+
+.content-item .line{
+    float: left;
+    margin-top: 10px;
+    width: 192px;
+    border-top: 1px solid #e3e1e1;
+}
+.price{
+    float: right;
+    color: #555;
+    font-size: 16px;
+}
+.index-list-load-more{
+    position: relative;
+}
+
+.index-list-load-more .load-more{
+    position: absolute;
+    width: 132px;
+    height: 34px;
+    border-color: #d7d5d5;
+    color: #d7d5d5;
+    margin: 34px auto 0;
+    left: 0;
+    right: 0;
+    padding: 0 0 0 30px;
+}
+
+.index-panel{
+    height: 564px;
+    margin-top: 200px;
+}
+
+.index-panel h3{
+    float: left;
+    font-size: 20px;
+}
+
+.index-panel .index-panel-header .index-panel-line {
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-top: 1px solid #e5e3e3;
+}
+
+.index-panel .hide{
+    display: none;
+}
+.dishes-list{
+    float: left;
+}
+
+.dishes-list .dishes-list-link {
+    float: left;
+    margin-top: 68px;
+    margin-right: 60px;
+}
+
+.dishes-list .dishes-list-link:last-child{
+    margin-right: 0;
+}
+
+.index-panel-circle-group{
+    font-size: 0;
+    float: right;
+}
+
+.index-panel-circle-group .index-panel-circle{
+    display: inline-block;
+    margin-left: 11px;
+    width: 9px;
+    height: 9px;
+    background: #dedede;
+    border-radius: 50%;
+}
+
+.index-panel-circle-group .active{
+    background: #9b9b9b;
+}
+
+.dishes-list ul{
+    width: 1160px;
+}
+
+.dishes-list .food-item{
+    float: left;
+    width: 230px;
+    margin-top: 80px;
+    margin-right: 60px;
+    overflow: hidden;
+}
+
+.dishes-list .food-item .name{
+    float: left;
+    margin-top: 26px;
+}
+
+.dishes-list .food-item .price{
+    float: right;
+    margin-top: 26px;
+}
+
+.dishes-list .food-item .star-group{
+    font-size: 0;
+    float: left;
+}
+
+.dishes-list .food-item .star{
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    margin-right: 5px;
+    margin-top: 10px;
+    background: url("../image/star.png") no-repeat 0 0;
+}
+
+.dishes-list .food-item .no-star{
+    background: url("../image/star.png") no-repeat 0 -13px;
+}
+
+.gallery{
+    margin-top: 0;
+    margin-bottom: 170px;
+}
+
+.gallery .gallery-food-item{
+    margin-top: 130px;
+    float: left;
+}
