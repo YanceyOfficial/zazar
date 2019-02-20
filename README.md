@@ -1,2 +1,3 @@
-# ZAZAR
-年輕時寫的第一個HTML頁面，留個紀念。
+# [ZAZAR](https://zazar.yancey.app)
+
+初學前端時寫的第一個完整的HTML頁面，留個紀念。
